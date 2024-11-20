@@ -1,7 +1,31 @@
+/* @media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Stack the layout vertically 
+    }
+
+    .sidebar, 
+    .emailsList, 
+    .emailview {
+        width: 100%; /* Make all sections take the full width 
+        height: auto; /* Adjust height for the content 
+    }
+
+    .searchbar {
+        width: 90%; /* Make the search bar narrower on smaller screens 
+        margin: 10px auto; /* Center it with some margin 
+    }
+
+    .replyBox {
+        width: 90%; /* Adjust the width for mobile 
+    }
+} 
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     height: 100vh;
+    flex-direction: row;
 }
 .sidebar {
     width: 250px;
@@ -97,4 +121,50 @@ body {
     justify-content: flex-start; 
     padding: 10px 15px;
     border-radius: 10px;
+}
+.emailview textarea {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+    outline: none;
+    resize: none; /* Prevent resizing for consistent layout */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional inner shadow */
+    font-size: 14px;
+    background-color: #f8f9fa; /* Light background */
+}
+.emailview {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.replyBox{
+width: 200px;
+height: 200px;
+padding: 20px;
+font-size: 20px;
+border-radius: 10px;
+}
+.reply-btn {
+    background-color: #ee8700;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.sidebar,
+.emailsList,
+.emailview {
+    flex: 1; /* Make all divs take an equal share of space */
+    display: flex; /* Enable Flexbox for internal layout */
+    flex-direction: column; /* Stack the content vertically */
+    overflow-y: auto; /* Allow scrolling for overflowing content */
 }
