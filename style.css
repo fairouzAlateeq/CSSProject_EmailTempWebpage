@@ -92,7 +92,7 @@ body {
     text-align: left;
 }
 .searchbar {
-    width: 250px;
+    width: 240px;
     justify-content: center;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -121,8 +121,9 @@ body {
     justify-content: flex-start; 
     border-radius: 10px;
     display:inline;
-    width: 250px;
+    width: 240px;
     height: 100px;
+    margin: 10px 0 10px 0;
 }
 .emailview textarea {
     width: 100%;
@@ -140,14 +141,15 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
     
 }
 .replyBox{
-width: 200px;
-height: 200px;
-padding: 20px;
+width: 75%;
+height: 30%;
 font-size: 20px;
 border-radius: 10px;
+text-align:left;
 }
 .reply-btn {
     background-color: #ee8700;
@@ -174,4 +176,7 @@ border-radius: 10px;
     padding-top: 0;
     margin-top: 0;
     justify-content: end;
+}
+.Quotes p {
+    margin:0px;
 }
