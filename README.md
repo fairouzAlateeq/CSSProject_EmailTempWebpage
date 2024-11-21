@@ -1,5 +1,6 @@
 ## Email Template Webpage 
 
+# What you need to know:
 <p> I built this project to brush up on my webdevelopment skills starting with using HTML and CSS. </p>
 
 <br>
