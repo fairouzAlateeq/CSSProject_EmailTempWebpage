@@ -1,26 +1,25 @@
 /* @media (max-width: 768px) {
     body {
-        flex-direction: column; /* Stack the layout vertically 
+        flex-direction: column; 
     }
 
     .sidebar, 
     .emailsList, 
     .emailview {
-        width: 100%; /* Make all sections take the full width 
-        height: auto; /* Adjust height for the content 
+        width: 100%; 
+        height: auto;  
     }
 
     .searchbar {
-        width: 90%; /* Make the search bar narrower on smaller screens 
-        margin: 10px auto; /* Center it with some margin 
+        width: 90%; 
+        margin: 10px auto; 
     }
 
     .replyBox {
-        width: 90%; /* Adjust the width for mobile 
+        width: 90%; 
     }
 } 
 */
-
 body {
     margin: 0;
     display:grid;
@@ -117,25 +116,21 @@ body {
 }
 #emailItemSecond {
     background-color: #ecf0f1;
-    flex-direction: column;
-    justify-content: flex-start; 
+    flex-direction: column; 
     border-radius: 10px;
-    display:inline;
-    width: 240px;
-    height: 100px;
     margin: 10px 0 10px 0;
 }
 .emailview textarea {
     width: 100%;
-    height: 100px; /* Adjust height as needed */
+    height: 100px; 
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px; 
     outline: none;
-    resize: none; /* Prevent resizing for consistent layout */
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional inner shadow */
+    resize: none; 
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); 
     font-size: 14px;
-    background-color: #f8f9fa; /* Light background */
+    background-color: #f8f9fa;
 }
 .emailview {
     display: flex;
@@ -167,10 +162,10 @@ text-align:left;
 .sidebar,
 .emailsList,
 .emailview {
-    flex: 1; /* Make all divs take an equal share of space */
-    display: flex; /* Enable Flexbox for internal layout */
-    flex-direction: column; /* Stack the content vertically */
-    overflow-y: auto; /* Allow scrolling for overflowing content */
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    overflow-y: auto; 
 }
 .emailview .to {
     padding-top: 0;
@@ -179,4 +174,9 @@ text-align:left;
 }
 .Quotes p {
     margin:0px;
+}
+.emailTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
