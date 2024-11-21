@@ -69,29 +69,27 @@ body {
 
 .emailsList{
     overflow-y: auto;
-    padding: 10px;
     background-color: #797e85;
     color: black;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
     height: 100vh;
+    padding: 20px;
 }
-
 .emailTime { 
-    justify-content: start;
+    text-align: right;
     font-size: 12px;
     margin: 0 0 5px;
     text-align: right;
     flex-shrink: 0;
+   
 }
 .sendername {
     font-weight: bold;
     margin: 0 0 5px;
     text-align: left;
-    
 }
 .searchbar {
     width: 250px;
@@ -102,27 +100,29 @@ body {
 }
 .emailPreview {
     font-size: 14px;
-    color: #666;
+    color: #000000;
     margin: 0;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 .email-item {
-    padding: 10px 15px;
     border-bottom: 1px solid #eee;
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    
 }
-.emailItemSecond {
+#emailItemSecond {
     background-color: #ecf0f1;
-    display: flex; 
     flex-direction: column;
     justify-content: flex-start; 
-    padding: 10px 15px;
     border-radius: 10px;
+    display:inline;
+    width: 250px;
+    height: 100px;
 }
 .emailview textarea {
     width: 100%;
@@ -137,11 +137,10 @@ body {
     background-color: #f8f9fa; /* Light background */
 }
 .emailview {
-    padding: 10px;
-    padding-top: 10px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    
 }
 .replyBox{
 width: 200px;
