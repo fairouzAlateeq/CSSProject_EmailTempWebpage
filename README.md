@@ -8,4 +8,4 @@
 
 <br> 
 
-<p> Each group of items is wrapped in its own ``` <div> ```, and I utilized a combination of classes and IDs to style and manage their appearance effectively using CSS. </p>
+<p> Each group of items is wrapped in its own div, and I utilized a combination of classes and IDs to style and manage their appearance effectively using CSS. </p>
