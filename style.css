@@ -164,7 +164,7 @@ body {
 }
 .replyBox{
 width: 70%;
-height: 500%;
+height: 300%;
 font-size: 20px;
 border-radius: 10px;
 }
@@ -190,7 +190,6 @@ border-radius: 10px;
     font-size: 16px;
     margin: 10px auto;
     width: 70%;
-    justify-content: end;
 }
 .sidebar,
 .emailsList,
