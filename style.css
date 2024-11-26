@@ -209,14 +209,17 @@ border-radius: 10px;
 }
 .WelcomeSection{
     display: flex;
-    border: #000000;
-    border-width: 5px;
+    align-items: center; 
+    gap: 10px
 }
 .welcome-image {
-    width: 50px; 
+    width: 60px; 
     border: #000000;
-    margin-right: 10px;;
-    height: 50px; 
+    margin-right: 5px;;
+    height: 60px; 
     border-radius: 50%; 
-    object-fit: cover; 
+}
+.sidebar h2 {
+    margin: 0; /* Ensures the text aligns properly with the image */
+    white-space: nowrap; /* Prevents the text from wrapping */
 }
