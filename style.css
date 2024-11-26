@@ -30,7 +30,7 @@ body {
     height: 90vh;
     grid-template-columns: 20% 30% 50%; 
 }
- 
+
 .sidebar {
     background-color: #55595e;
     color: #ecf0f1;
@@ -206,4 +206,17 @@ border-radius: 10px;
 }
 .Quotes p {
     margin:0px;
+}
+.WelcomeSection{
+    display: flex;
+    border: #000000;
+    border-width: 5px;
+}
+.welcome-image {
+    width: 50px; 
+    border: #000000;
+    margin-right: 10px;;
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
 }
